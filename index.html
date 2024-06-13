@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad Muzammil - Front-End Developer </title>
+    <link rel="stylesheet" href="style.css" class="css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+         * {
+            margin: 0;
+            padding: 0;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background: linear-gradient(to right,#00093c, #2d0b00);   
+            color: white;
+            font-family: "Raleway", sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background: linear-gradient(to left,#00093c, #2d0b00);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: rgb(248, 248, 248);
+        }
+        nav ul li a:hover{
+            text-decoration: none;
+            color:#ae4c2b;
+            font-size: 1.02rem;
+        }
+    
+        .left{
+            font-size: 2rem;
+        }
+
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            margin: 150px 0;
+        }
+        .firstsection > div{
+            width: 30%;
+
+        }
+        .leftsection{
+            width: 50px;
+            font-size: 3rem;
+            margin: 30px;
+        }
+        .rightsection{
+            height: 50px;
+            width: 30px ;
+        }
+        .purple{
+            color: #c05d3b;
+        }
+        #element{
+            color: #2a3dac;
+        }
+        
+        
+    </style>
+</head>
+
+<body>
+   <div id="header">
+        <nav>
+            <div class="left">Mohammad Muzammil's Portfolio</div>
+            <div class="right">
+                <ul>
+                    
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me </a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">contact</a></li>
+
+                </ul>
+            </div>
+        </nav>
+   </div>
+   
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi,My Name is <span class="purple">Mohammad Muzammil</span> 
+                <div>I'm</div>
+
+                <span id="element"></span>
+            </div>
+                <div class="rightsection">
+                    <img src="developer.png">
+                </div>
+            </div>
+        </section>
+        <hr>
+    </main>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+      <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Front-End Developer.'],
+      typeSpeed: 50,
+    });
+  </script>
+
+<!-------------about---------->
+
+
+  <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="img.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>A new BCA candidate is interested in investigating front-end prospects. I am proficient in Javascript, HTML5, CSS3, and ReactJS, but if given the opportunity, I would be open to working with other technologies as well. My entire BCA degree score was between 80% and 85%. I also completed a web development course using seven different programming languages, including HTML, CSS, JAVA SCRIPT , PHP REACT JS, DBMS, BOOTSTRAP.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links">Skills</p>
+                </div>
+                <div class="tabcontents">
+                    <ul>
+                        <li><span>HTML</span><br></li>
+                        <li><span>CSS</span><br></li>
+                        <li><span>JAVA SCRIPT</span><br></li>
+                        <li><span>REACT JS</span><br></li>
+                        <li><span>PHP</span><br></li>
+                        <li><span>DBMS</span><br></li>
+                        <li><span>BOOTSTRAP</span><br></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <hr>
+  
+
+  <section class="education" id="education">
+    <h2 class="heading"> My <span> Education</span></h2>
+    <div class="timeline">
+        <div class="container right">
+            <div class="content">
+                <div class="tag">
+                    <h2>Osmania University</h2>
+                    <h3>Pragnya Degree College</h3> 
+                    </div>
+                    <div class="decs">
+                        <p>I completed a three-year, six-semester bachelor's degree in BCA [Bachelor Of Computer Application] at Pragnya Degree College, which is connected to Osmania  University. I received a grade of almost 85% overall.  </p>
+                    </div>
+                </div>
+            </div>
+              <div class="container left">
+            <div class="content">
+                <div class="tag">
+                    <h2>Intermediate College</h2>
+                    <h3>Sri Medha'V' Junior College </h3>
+                    </div>
+                    <div class="decs">
+                        <p>I completed my intermediate college education at Sri Medha 'V' Junior College in [MPC] Mathematics, Physics, and Chemistry, and I received a score of about 65%.  </p>
+                    </div>
+                </div>
+            </div>
+             <div class="container right">
+            <div class="content">
+                <div class="tag">
+                    <h2>High School</h2>
+                    <h3>Thayal Grammar High School</h3>
+                    </div>
+                    <div class="decs">
+                        <p>After Completing my high school education at Thayal Grammar High School, I received a 73%  </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+  </section>
+  <hr>
+  <!---------------contact------------>
+  <div id="contact">
+        <div class="container">
+            <div class="row">
+                 <div class="contact-left">
+                  <h1 class="sub-title">Contact </h1>
+                  <p><i class="fa-solid fa-envelope"></i>mohammadmuzammil1715@gmail.com</p>
+                  <p><i class="fa-solid fa-phone"></i>7013396480</p>
+                  <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/mohammad-muzammil-2a0273248/   "><i class="fa-brands fa-linkedin"></i></a>
+                  </div>
+                 </div>
+                 <div class="contact-right"></div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+    <footer>
+
+   
+    <div class="fotterBottom">
+        <p>Copyright &copy;2024;Designed by <span class="designer">Mohammad Muzammil</span></p>
+        </div>
+    </footer>
+      
+
+
+
+</body>
+
+</html>
